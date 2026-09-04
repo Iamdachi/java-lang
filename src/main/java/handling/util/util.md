@@ -43,3 +43,9 @@ Core Method is T get() that generates or retrieves an instance when invoked.
 
 Used for lazy evaluation, factory patterns, or deferred execution (e.g., generating values only when needed).  
 
+### Consumer
+A Consumer<T> is a functional interface that accepts a single argument of type T and returns no result (void).
+
+Core Method: void accept(T t) that performs an action on the provided input.
+
+Usage: Used for side-effect operations such as printing, modifying state, writing to a database, or emitting metrics.
