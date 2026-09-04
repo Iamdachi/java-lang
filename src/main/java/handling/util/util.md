@@ -1,6 +1,9 @@
 ### Functional Interface
 Functional interface is an interface that contains exactly one abstract method.  
   
+Functional Interfaces exist because everything in java must be a class. So, FI s are javas
+way of supporting functional programming. And interfaces like Runnable and Comparator support Lambda expressions.  
+
 Abstract method - method declared with a signature(name, return type and parameters),
 but no implementation(body).  
   
@@ -48,4 +51,11 @@ A Consumer<T> is a functional interface that accepts a single argument of type T
 
 Core Method: void accept(T t) that performs an action on the provided input.
 
-Usage: Used for side-effect operations such as printing, modifying state, writing to a database, or emitting metrics.
+Usage: Used for side-effect operations such as printing, modifying state, writing to a database, or emitting metrics.  
+
+### Predicate
+A Predicate<T> is a functional interface in that accepts a single argument of type T and returns a boolean.
+
+Core Method: boolean test(T t)—evaluates a condition against the input.
+
+Usage: Used for filtering collections, matching conditions, or validating data.
