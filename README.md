@@ -6,6 +6,11 @@ Repo for learning Java Language features using books and official guides:
 
 # Goals and Progress
 
+### To understand  
+🟠 Util library data structures: ArrayList, Arrays, Collections, HashMap, IdentityHashMap, LinkedHashSet, List, Set, Map, Objects...  
+🟠 Util concepts like: Comparator, Optional, Properties, CompletableFuture, Predicate, Function, Supplier, Consumer...  
+
+
 ### Core Java I:  https://www.jre-training.com/MFI/Tools/Core%20Java%20Vol%2012%20-%20I.pdf  
 🟠 Ch 2:  Java Programming Environment: JDK, Command Line Tools, IDE, JShell  
 🟠 Ch 3:  Fundamental Programming Structures in Java  
