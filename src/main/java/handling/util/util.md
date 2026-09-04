@@ -30,3 +30,9 @@ under the hood:
     private Optional(T value) {this.value = value;}
 ```
 
+### Function
+
+Function<T, R> is a functional interface that accepts argument of type T
+and returns result of type R. Core method is R apply(T t) that executes the transformation.
+  
+Mostly Used for mapping/converting data from one type or format to another (e.g., transforming an entity into a DTO).
