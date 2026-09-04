@@ -36,3 +36,10 @@ Function<T, R> is a functional interface that accepts argument of type T
 and returns result of type R. Core method is R apply(T t) that executes the transformation.
   
 Mostly Used for mapping/converting data from one type or format to another (e.g., transforming an entity into a DTO).
+
+### Supplier
+Supplier<T> is a functional interface that takes no arguments and returns type T value.
+Core Method is T get() that generates or retrieves an instance when invoked.  
+
+Used for lazy evaluation, factory patterns, or deferred execution (e.g., generating values only when needed).  
+
