@@ -27,7 +27,7 @@ Repo for learning Java Language features using books and official guides:
 🟠 Ch 12:  Concurrency  
   
 ### Core Java II: https://www.jre-training.com/MFI/Tools/Core%20Java%20Vol%20%2013%20-%20II.pdf  
-🟠 Ch 1: Streams  
+🟠-🟢 Ch 1: Streams  
 🟠 Ch 2: Input and Output  
 🟠 Ch 3. XML  
 🟠 Ch 4. Networking  
